@@ -159,6 +159,7 @@ table {
 
 header {
   position: relative;
+  z-index: 10;
 }
 
 nav {
@@ -217,4 +218,26 @@ main {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: 1440px 1315px;
+}
+
+.image-text-one {
+  display: block;
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.padding-top {
+  padding-top: 150px;
+}
+
+.first-image-overflow {
+  height: 90px;
+  overflow: hidden;
+}
+
+.second-image-overflow {
+  height: 35px;
+  overflow: hidden;
+  margin-top: 20px;
 }
