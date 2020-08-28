@@ -220,7 +220,14 @@ main {
   background-size: 1440px 1315px;
 }
 
-.image-text-one {
+@media screen and (min-width: 1441px) {
+  main {
+    background-position: 50% 80%;
+    background-size: 100% auto;
+  }
+}
+
+.image-text {
   display: block;
   width: 980px;
   height: auto;
@@ -240,4 +247,20 @@ main {
   height: 35px;
   overflow: hidden;
   margin-top: 20px;
+}
+
+img.third-image-overflow {
+  visibility: hidden;
+  width: 980px;
+  height: 35px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.display .second-image-overflow:hover {
+  display: none;
+}
+
+.display .third-image-overflow:hover {
+  visibility: visible;
 }
