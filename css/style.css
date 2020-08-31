@@ -243,24 +243,22 @@ main {
   overflow: hidden;
 }
 
-.second-image-overflow {
-  height: 35px;
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-img.third-image-overflow {
-  visibility: hidden;
+img.second-image-overflow {
+  border: 1px solid transparent; /* Stop image edges from showing */
   width: 980px;
   height: 35px;
   object-fit: cover;
-  object-position: bottom;
+  object-position: 0 -3%;
 }
 
-.display .second-image-overflow:hover {
-  display: none;
+img.second-image-overflow:hover {
+  border: 1px solid transparent; /* Stop image edges from showing */
+  width: 980px;
+  height: 35px;
+  object-fit: cover;
+  object-position: 0 100%;
 }
 
-.display .third-image-overflow:hover {
-  visibility: visible;
+.last-text {
+  margin-top: 30px;
 }
