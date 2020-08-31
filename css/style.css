@@ -195,8 +195,11 @@ footer a {
 
 .nav-link {
   border-right: 1px solid #4f4f4f;
-  width: 103px;
   text-align: center;
+}
+
+.nav-link:hover {
+  background-image: linear-gradient(#575757, #383838, #575757);
 }
 
 .nav-menu a {
@@ -210,7 +213,7 @@ footer a {
 
 .nav-link-text {
   font-size: 12px;
-  padding: 8px 0 2px;
+  padding: 10px 0 2px;
 }
 
 .nav-input input {
